@@ -28,6 +28,7 @@ import {
   tictactoe,
   sps,
   spotify,
+  IoT,
 } from "../assets";
 
 export const navLinks = [
@@ -164,7 +165,32 @@ const testimonials = [
 
 const projects = [
   {
-    name: "TickTask - Todo App",
+    name: "LockBuddy - Password Manager",
+    description:
+      "A simple password manager that allows users to securely save, view, and copy passwords with persistent local storage, password visibility toggle.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "yellow-text-gradient",
+      },
+    ],
+    images: [todo],
+    source_code_link: "https://github.com/Roshan-Chourasia/Tick-Task-React",
+  },
+  {
+    name: "TickTask - Todo Application",
     description:
       "Developed a sleek and responsive todo list application with full CRUD operations and local storage support. Designed for mobile and desktop users with a minimalist UI.",
     tags: [
@@ -177,7 +203,7 @@ const projects = [
       //   color: "green-text-gradient",
       // },
       {
-        name: "tailwind",
+        name: "tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -185,7 +211,7 @@ const projects = [
     source_code_link: "https://github.com/Roshan-Chourasia/Tick-Task-React",
   },
   {
-    name: "UI Clone Collection",
+    name: "UI Clone Collection (Spotify & X)",
     description:
       "Created visually accurate static UI clones of Spotify and X (Twitter), a responsive layouts, modern interface structure, and clean, user-friendly page components.",
     tags: [
@@ -206,7 +232,7 @@ const projects = [
     source_code_link: "https://github.com/Roshan-Chourasia/Spotify_clone",
   },
   {
-    name: "Mini Web Games",
+    name: "Mini Web Game Collection",
     description:
       "Developed two interactive browser games — Tic Tac Toe (2-player) and Rock Paper Scissors (vs computer) — with responsive design and smooth user interactions.",
     tags: [
@@ -225,6 +251,27 @@ const projects = [
     ],
     images: [tictactoe, sps],
     source_code_link: "https://github.com/Roshan-Chourasia/Web-Dev-Projects",
+  },
+  {
+    name: "Alcohol Detection in Motor Vehicles",
+    description:
+      "IoT-based system using MQ-3 alcohol sensor, Arduino, GSM, and GPS modules detects alcohol levels, stops the vehicle engine, and instantly sends SMS alerts with location.",
+    tags: [
+      {
+        name: "IoT",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Embedded Systems",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C/C++",
+        color: "pink-text-gradient",
+      },
+    ],
+    images: [IoT],
+    source_code_link: "https://github.com/Roshan-Chourasia/Alcohol_Detection_in_Motor_Vehicle",
   },
 ];
 

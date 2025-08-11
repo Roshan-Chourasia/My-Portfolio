@@ -35,6 +35,7 @@ import todo from "./todo.png";
 import tictactoe from "./tictactoe.png";
 import sps from "./sps.png";
 import spotify from "./spotify.png";
+import IoT from "./Iot.jpg"
 
 export {
   logo,
@@ -70,4 +71,5 @@ export {
   tictactoe,
   sps,
   spotify,
+  IoT
 };
