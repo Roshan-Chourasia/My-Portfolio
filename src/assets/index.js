@@ -30,6 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import LockBuddy from "./LockBuddy.png"
 import x from "./x.png";
 import todo from "./todo.png";
 import tictactoe from "./tictactoe.png";
@@ -66,6 +67,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  LockBuddy,
   x,
   todo,
   tictactoe,

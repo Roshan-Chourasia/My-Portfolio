@@ -23,6 +23,7 @@ import {
   mysql,
   expressjs,
   nextjs,
+  LockBuddy,
   x,
   todo,
   tictactoe,
@@ -186,8 +187,8 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    images: [todo],
-    source_code_link: "https://github.com/Roshan-Chourasia/Tick-Task-React",
+    images: [LockBuddy],
+    source_code_link: "https://github.com/Roshan-Chourasia/lockbuddy-password-manager",
   },
   {
     name: "TickTask - Todo Application",
